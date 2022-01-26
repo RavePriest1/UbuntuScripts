@@ -58,8 +58,6 @@ sudo dpkg -i heroic_1.9.2_amd64.deb
 
 sudo dpkg -i fajlnev.deb
 
-sudo apt --fix-broken install
-
 # VLC media lejatszo
 sudo apt install vlc -y
 
