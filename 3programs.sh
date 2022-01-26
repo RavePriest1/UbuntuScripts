@@ -61,10 +61,10 @@ sudo dpkg -i fajlnev.deb
 sudo apt --fix-broken install
 
 # VLC media lejatszo
-sudo apt install vlc
+sudo apt install vlc -y
 
 # Brave Bongeszo Telepitoje
-sudo apt install apt-transport-https curl
+sudo apt install apt-transport-https curl -y
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt update
@@ -79,11 +79,9 @@ sudo apt install --install-recommends winehq-stable winetricks -y
 winecfg
 
 # Lutris Telepito Linux Gaming Alkalmazas
-sudo add-apt-repository ppa:lutris-team/lutris
+sudo add-apt-repository ppa:lutris-team/lutris -y
 sudo apt update
-sudo apt install lutris
-
-sudo apt autoremove -y
+sudo apt install lutris -y
 
 
 # Felugro ablak ujrainditashoz NE TEGYEL SEHOVA #-et!
