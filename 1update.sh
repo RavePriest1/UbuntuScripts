@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-# Rendszer Frissitesek es Nem Kello Modulok Torlese
+# Rendszer Frissitesek Telepitese
 sudo apt update
 
 sudo apt upgrade -y
