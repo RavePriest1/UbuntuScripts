@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Nvidia Driver 470-es verziojanak telepitese. Ha ujabb verziot szeretnel csereld ki a 470-et 495-re!
 sudo apt install nvidia-driver-470 -y
 
 # Felugro ablak ujrainditashoz NE TEGYEL SEHOVA #-et!
