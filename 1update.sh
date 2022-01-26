@@ -6,8 +6,6 @@ sudo apt update
 
 sudo apt upgrade -y
 
-sudo apt autoremove -y
-
 # Felugro ablak ujrainditashoz NE TEGYEL SEHOVA #-et!
 zenity --question --text='Ujrainditas 10 masodperc mulva?' --width='300' --height='100'
 if [ $? = 0 ]; then
